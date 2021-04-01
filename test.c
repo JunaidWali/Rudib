@@ -8,7 +8,7 @@ int main (void){
     fgets(name, 30, stdin);
     strtok(name, "\n");
 
-    printf("Hello, %s\n", name);
+    printf("Hello there, %s\n", name);
 
     return 0;
 }
